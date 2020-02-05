@@ -1,0 +1,15 @@
+Source: helloaliben
+Section: utils
+Priority: optional
+Maintainer: Aliben <aliben.develop@gmail.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage:https://github.com/alibenD/helloaliben
+Vcs-Git: https://github.com/alibenD/helloaliben.git
+Vcs-Browser: https://github.com/alibenD/helloaliben
+
+Package: helloaliben
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Hello Program
+ Custom program for print "Hello world"
